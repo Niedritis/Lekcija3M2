@@ -18,3 +18,4 @@ car1.StartToDrive();
 car1.GoFaster();
 car1.Beep();
 car1.SlowDown();
+car1.Stop();

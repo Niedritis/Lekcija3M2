@@ -8,7 +8,7 @@
 
         public void StartToDrive()
         {
-            Speed = 15;
+            Speed = 0;
             Console.WriteLine("Sakam braukšanu");
         }
 
@@ -16,6 +16,7 @@
         {
             Speed += 10;
             Console.WriteLine("Ātrums - " + Speed);
+
             return Speed;
         }
 
