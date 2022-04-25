@@ -2,17 +2,21 @@
 
 Car car1 = new Car();
 
+Console.WriteLine("Lūdzu, ievadi Auto marku");
+string CarBrand = Console.ReadLine();
+car1.Brand = CarBrand;
 
-car1.Brand = "Toyota";
-car1.NumberPlate = "4545";
-car1.Speed = 20;
+Console.WriteLine("Lūdzu, ievadi Auto numuru");
+string Number = Console.ReadLine();
+car1.NumberPlate = Number;
+
+Console.WriteLine("Lūdzu ievadi , Ātrumu ar cipariem");
+string CarSpeed = Console.ReadLine();
+car1.Speed = double.Parse(CarSpeed);
 
 
-string carName = car1.Brand;
-string carNumberPlate = car1.NumberPlate;
-double carSpeed = car1.Speed;
 
-Console.WriteLine($"Auto {carName} numurs {carNumberPlate}!");
+Console.WriteLine($"Auto {car1.Brand} numurs {car1.NumberPlate}!");
 
 car1.StartToDrive();
 car1.GoFaster();

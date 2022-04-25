@@ -8,7 +8,7 @@
 
         public void StartToDrive()
         {
-            Speed = 0;
+            
             Console.WriteLine("Sakam braukšanu");
         }
 
