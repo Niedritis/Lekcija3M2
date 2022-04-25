@@ -12,7 +12,7 @@ string carName = car1.Brand;
 string carNumberPlate = car1.NumberPlate;
 double carSpeed = car1.Speed;
 
-Console.WriteLine($"Auto {carName} numurs {carNumberPlate}");
+Console.WriteLine($"Auto {carName} numurs {carNumberPlate}!");
 
 car1.StartToDrive();
 car1.GoFaster();
